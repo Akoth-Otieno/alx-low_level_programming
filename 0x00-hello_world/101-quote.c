@@ -8,7 +8,6 @@
  */
 int main(void)
 {
-	char x = "and that piece of art is useful" - Dora Korpar, 2015-10-19
-	fprintf(stdout,"value of x: %d", x,\n");
+	fprintf(stdout,"and that piece of art is useful\- Dora Korpar, 2015-10-19\n");
 	return (1);
 }
