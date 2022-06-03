@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
- * main - Function that prints whether a numbers is negative, zero or positive.
+/**
+ * main - Prints a random number and states if the number 
+ * 	is negative, zero or positive.
  *
  * Return: Always 0 (Success)
  */
