@@ -3,7 +3,7 @@
 #include <time.h>
 
 /*
- * main - Function that prints whether a numbers is negative, zero or positive, according to the conditions given.
+ * main - Function that prints whether a numbers is negative, zero or positive.
  *
  * Return: Always 0 (Success)
  */
@@ -28,6 +28,5 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	
 	return (0);
 }
