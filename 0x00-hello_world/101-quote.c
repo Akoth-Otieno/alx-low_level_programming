@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	fprintf(stdout,"and that piece of art is useful
+	fprintf(stdout, "and that piece of art is useful
 			\n" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
