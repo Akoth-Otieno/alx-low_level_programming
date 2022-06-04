@@ -24,7 +24,7 @@ int capital(void)
 char Letter;
 for (Letter = 'A'; Letter <= 'Z'; Letter++)
 {
-putchar(Letter)
+putchar(Letter);
 }
 return (0);
 }
