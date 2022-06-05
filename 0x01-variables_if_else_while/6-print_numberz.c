@@ -13,8 +13,7 @@ long num;
 
 for (num = 0; num > 10; num++)
 {
-print_long(num/10);
-putchar((num % 10) + '0');
+putchar(num);
 }
 
 putchar('\n');
