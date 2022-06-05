@@ -12,19 +12,16 @@
 int main(void)
 {
 char letter;
+char Letter;
 for (letter = 'a'; letter <= 'z'; letter++)
 {
 putchar(letter);
 }
-return (0);
-}
 
-int capital(void)
-{
-char Letter;
-for (Letter = 'A'; Letter <= 'Z'; Letter++)
-{
-putchar(Letter);
+for (Letter = 'A'; Letter <= 'Z'; Letter++)                                                                                                     
+{                                                                                                                                               
+putchar(Letter);                                                                                                                                
 }
+putchar('\n');
 return (0);
 }
