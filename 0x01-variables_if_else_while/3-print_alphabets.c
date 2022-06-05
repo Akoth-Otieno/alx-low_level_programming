@@ -5,9 +5,6 @@
  *
  * Return: Always 0 (Success)
  *
- * capital - Function that prints the alphabet uppercase.
- *
- * Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -20,7 +17,7 @@ putchar(letter);
 
 for (Letter = 'A'; Letter <= 'Z'; Letter++)                                                                                                     
 {                                                                                                                                               
-putchar(Letter);                                                                                                                                
+putchar(Letter);
 }
 putchar('\n');
 return (0);
