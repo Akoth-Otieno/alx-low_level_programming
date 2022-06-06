@@ -14,7 +14,7 @@ int second_digit;
 
 for (first_digit = 0; first_digit <= 98; first_digit++)
 	{
-		for (second_digit = first_digit + 1; second_digit = 99; second_digit++)
+		for (second_digit = first_digit + 1; second_digit <= 99; second_digit++)
 
 		{
 			putchar(first_digit / 10) + '0');
