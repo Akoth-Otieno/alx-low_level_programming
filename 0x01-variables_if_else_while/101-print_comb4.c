@@ -24,13 +24,14 @@ for (first_digit = 0; first_digit < 8; first_digit++)
 			putchar((second_digit % 10) + '0');
 			putchar((third_digit % 10) + '0');
 
-			if (first_digit == 7 && second_digit == 8 && third-digit == 9)
+			if (first_digit == 7 && second_digit == 8 && third_digit == 9)
 				continue;
 
 			putchar(',');
 			putchar(' ');
 		}
 	}
+}
 
 putchar('\n');
 
