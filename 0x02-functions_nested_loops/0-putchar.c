@@ -10,11 +10,11 @@
 */
 int main(void)
 {
-char _putchar;
+char c[] ="_putchar";
 	
-putchar(_putchar);
+_putchar(c[]);
 
-putchar('\n');
+_putchar('\n');
 
 return (0);
 }
