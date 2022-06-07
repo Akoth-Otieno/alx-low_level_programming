@@ -4,19 +4,18 @@
 /**
  * _abs - function that prints the absolute value of a number.
  *
- * @int: the number whose absolute value is tested
+ * @a: the number whose absolute value is tested
  *
  * Return: absolute value of a number
  *
 */
-int _abs(int)
+int _abs(int a)
 {
-int a;
 
-if (i < 0)
+if (a < 0)
 {
-	i = i * -1;
+	a = a * -1;
 }
 
-return (i);
+return (a);
 }
