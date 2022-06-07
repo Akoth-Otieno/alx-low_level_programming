@@ -12,9 +12,9 @@ int main(void)
 {
 char _putchar;
 	
-_putchar(_putchar);
+putchar(_putchar);
 
-_putchar('\n');
+putchar('\n');
 
 return (0);
 }
