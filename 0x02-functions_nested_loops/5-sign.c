@@ -7,16 +7,15 @@
  * @n - the character that the function tests.
  *
  * Return: 1 if in is positive, 0 if n is zero,
- *	-1 if negative, and / if n is not a digit. 
+ *	-1 if negative, and / if n is not a digit.
 */
 int print_sign(int n)
 {
-	if (n > 0) 
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
 	}
-	
 	else if (n == 0)
 	{
 		_putchar('0');
