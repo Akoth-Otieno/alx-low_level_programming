@@ -4,6 +4,8 @@
 /**
  * _islower - function that checks for a lowercase character.
  *
+ * @c: character to test.
+ *
  * Return: Always 0 (Success)
  *
 */
