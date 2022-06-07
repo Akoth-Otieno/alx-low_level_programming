@@ -10,6 +10,14 @@
 */
 int main(void)
 {
+char _;
+char p;
+char u;
+char t;
+char c;
+char h;
+char a;
+char r;
 	_putchar(_);
 	_putchar(p);
 	_putchar(u);
