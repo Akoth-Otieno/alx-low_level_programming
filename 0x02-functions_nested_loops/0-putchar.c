@@ -10,9 +10,9 @@
 */
 int main(void)
 {
-char c = "_putchar"
+char _putchar;
 	
-_putchar(c);
+_putchar(_putchar);
 
 _putchar('\n');
 
