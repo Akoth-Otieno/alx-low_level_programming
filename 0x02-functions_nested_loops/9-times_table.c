@@ -42,8 +42,8 @@ for (nine = 0; nine <= 9; nine++)
 	{
 		_putchar((product % 10) + '0');
 	}
-	
-		_putchar('\n');
+
 	}
-}
+
+	putchar('\n');
 }
