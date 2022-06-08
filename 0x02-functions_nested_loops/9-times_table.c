@@ -47,3 +47,4 @@ for (nine = 0; nine <= 9; nine++)
 
 	putchar('\n');
 }
+}
