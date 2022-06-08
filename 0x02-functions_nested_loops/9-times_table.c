@@ -27,7 +27,7 @@ for (nine = 0; nine <= 9; nine++)
 	}
 	
 	if (product >= 10)
-	{	
+	{
 		_putchar((product / 10) + '0');
 		_putchar((product % 10) + '0');
 	}
@@ -37,14 +37,12 @@ for (nine = 0; nine <= 9; nine++)
 		_putchar(' ');
 		_putchar((product % 10) + '0');
 	}
-
-	else 
-	{
+	
+	else
 		_putchar((product % 10) + '0');
 	}
 
-	}
+}
 
 	putchar('\n');
-}
 }
