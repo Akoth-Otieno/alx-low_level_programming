@@ -27,6 +27,4 @@ for (hours = 0; hours < 24; hours++)
 
 }
 
-_putchar('\n');
-
 }
