@@ -21,8 +21,10 @@ for (hours = 00.00; hours <= 23.59; hours++)
 		_putchar(':');
 		_putchar((minutes / 10) + '0');
 		_putchar ('\n');
+	}
 
 }
 
 _putchar('\n');
+
 }
