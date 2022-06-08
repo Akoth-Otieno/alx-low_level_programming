@@ -16,7 +16,7 @@ void print_to_98(int n)
 		for (n = n; n < 98; n++)
 		{
 			printf("%d, ", n);
-		printf("%d\n");
+		printf("%d\n", n);
 		}
 	}
 
@@ -25,7 +25,7 @@ void print_to_98(int n)
 		for (n = n; n > 98; n--)
 		{
 			printf("%d, ", n);
-		printf("%d\n");
+		printf("%d\n", n);
 		}
 	}
 }
