@@ -44,5 +44,5 @@ for (nine = 0; nine <= 9; nine++)
 
 }
 
-	putchar('\n');
+	_putchar('\n');
 }
