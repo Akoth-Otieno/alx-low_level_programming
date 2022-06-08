@@ -10,10 +10,10 @@
 **/
 void jack_bauer(void)
 {
-float minutes;
-float hours;
+int minutes;
+int hours;
 
-for (hours = 00.00; hours <= 23.59; hours++)
+for (hours = 0; hours <= 24; hours++)
 {
 	for (minutes = 0; minutes <= 60; minutes++)
 	{
