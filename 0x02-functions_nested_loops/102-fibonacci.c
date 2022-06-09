@@ -10,8 +10,8 @@
 */
 int main(void)
 {
-unsigned long num1 = 1
-unsigned long num2 = 2
+unsigned long num1 = 1;
+unsigned long num2 = 2;
 int i;
 unsigned long sum;
 
@@ -23,7 +23,7 @@ unsigned long sum;
 		num1 = num2;
 		sum = num2;
 
-		if (count == 49)
+		if (i == 49)
 			printf("\n");
 
 		else
