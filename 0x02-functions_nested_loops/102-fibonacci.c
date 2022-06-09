@@ -12,14 +12,14 @@ int main(void)
 {
 unsigned long num1 = 0;
 unsigned long num2 = 1;
-int i;
+unsigned long i;
 unsigned long sum;
 
 	for (i = 0; i < 50; i++)
 	{
-		sum = num1 + num2;
+		sum = num1 + num2i;
 		num1 = num2;
-		sum = num2;
+		num2 = sum;
 		printf("%lu", sum);
 
 		if (i == 49)
