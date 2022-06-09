@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_times_table - function that prints the n time table, starting with zero.
+ * print_times_table - function that prints the n time table, starting from 0.
  *
  * @n: the variable whose times table the function prints
  *
