@@ -10,18 +10,17 @@
 */
 int main(void)
 {
-unsigned long num1 = 1;
-unsigned long num2 = 2;
+unsigned long num1 = 0;
+unsigned long num2 = 1;
 int i;
 unsigned long sum;
 
 	for (i = 0; i < 50; i++)
 	{
 		sum = num1 + num2;
-		printf("%lu", sum);
-
 		num1 = num2;
 		sum = num2;
+		printf("%lu", sum);
 
 		if (i == 49)
 			printf("\n");
