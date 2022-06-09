@@ -4,9 +4,9 @@
  * main - function that finds and prints the sum of
  *	the even-valued terms, followed by a new line.
  *
- *Return: void
+ *Return: Always 0 (Success)
 */
-void main(void)
+int main(void)
 {
 	unsigned long i, num1, num2, sum, total;
 
@@ -24,4 +24,5 @@ void main(void)
 		}
 		printf("%lu\n", total);
 	}
+	return (0);
 }
