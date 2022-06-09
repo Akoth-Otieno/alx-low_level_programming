@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * multiples_of_3 - function that prints natural numbers below 1024
+ * main - function that prints natural numbers below 1024
  *	that are multiples of 3.
  *
  * Return: Always (0) Success
@@ -20,8 +20,6 @@ int sum;
 	}
 
 	printf("%d\n", sum);
-
-	_putchar('\n');
 
 	return (0);
 }
