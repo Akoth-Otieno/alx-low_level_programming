@@ -12,7 +12,7 @@
 void print_times_table(int n)
 {
 int num;
-int multiply;
+int multiplier;
 int product;
 
 if (n >= 0 && n <= 15)
@@ -47,7 +47,7 @@ if (n >= 0 && n <= 15)
 
 		}
 
-		_putchar('\n');
+		_putchar('\n')_;
 
 	}
 }
