@@ -17,7 +17,7 @@ unsigned long sum;
 
 	for (i = 0; i < 50; i++)
 	{
-		sum = num1 + num2i;
+		sum = num1 + num2;
 		num1 = num2;
 		num2 = sum;
 		printf("%lu", sum);
