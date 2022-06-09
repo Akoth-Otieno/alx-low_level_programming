@@ -47,7 +47,7 @@ if (n >= 0 && n <= 15)
 
 		}
 
-		_putchar('\n')_;
+		_putchar('\n');
 
 	}
 }
