@@ -1,14 +1,13 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
  * multiples_of_3 - function that prints natural numbers below 1024
  *	that are multiples of 3.
  *
- * Return: void, hence no return statement
+ * Return: Always (0) Success
  *
 */
-void multiples_of_3(void)
+void main(int)
 {
 int num;
 int sum;
@@ -22,4 +21,6 @@ int sum;
 	printf("%d\n", sum);
 
 	_putchar('\n');
+
+	return (0);
 }
