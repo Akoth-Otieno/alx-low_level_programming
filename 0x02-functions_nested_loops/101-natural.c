@@ -7,7 +7,7 @@
  * Return: Always (0) Success
  *
 */
-void main(int)
+int main(int num)
 {
 int num;
 int sum;
