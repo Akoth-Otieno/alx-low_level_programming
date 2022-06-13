@@ -14,12 +14,6 @@ void print_rev(char *s)
 {
 	int str_len;
 
-	for (*s = 0; *s != '\0'; *s++)
-	{
-		s++;
-		str_len++;
-	}
-
 	for (str_len = 0; str_len > 0; str_len--;)
 	{
 		s--;
