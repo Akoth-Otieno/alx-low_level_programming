@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * reset_to_98 - function that updates the value of a pointer
  *
@@ -10,9 +9,9 @@
 
 void reset_to_98(int *n)
 {
-	int p = &n;
+	int p;
 	*n = 402;
-
+	p = &n;
 	p = 98;
 }
 
