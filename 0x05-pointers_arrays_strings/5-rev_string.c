@@ -12,5 +12,20 @@
 
 void rev_string(char *s)
 {
-	strrev(s);
+	int i;
+	int str_len;
+	int left, right, temp;
+
+	left = 0;
+	right = str_len - 1;
+
+	str_len = strlen(s);
+
+	for (i = left; i < right; i++)
+	{
+		temp = s[i];
+		s[i] = s[right];
+		s[right] = temp;
+		right--;	
+	}
 }
