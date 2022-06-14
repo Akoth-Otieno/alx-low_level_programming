@@ -20,10 +20,11 @@ void print_rev(char *s)
 		str_len++;
 	}
 
-	for (str_len = 0; str_len > 0; str_len--)
+	while (str_len > 0)
 	{
 		s--;
 		_putchar(*s);
+		str_len--;
 	}
 
 	_putchar('\n');
