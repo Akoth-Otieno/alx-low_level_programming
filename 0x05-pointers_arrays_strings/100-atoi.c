@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * _atoi - function that converts a string to an integer
- * 
  * @s: pointer
  *
  * Return: int.
