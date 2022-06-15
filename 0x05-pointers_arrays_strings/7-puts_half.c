@@ -12,7 +12,7 @@
 
 void puts_half(char *str)
 {
-	int str_len, i, j;
+	int str_len, i, n;
 
 	str_len = 0;
 
@@ -31,7 +31,7 @@ void puts_half(char *str)
 
 	}
 
-	else if (str_len % 2 = 1)
+	else if (str_len % 2 == 1)
 	{
 		for (n = (str_len - 1) / 2; n < str_len - 1; n++)
 		{
