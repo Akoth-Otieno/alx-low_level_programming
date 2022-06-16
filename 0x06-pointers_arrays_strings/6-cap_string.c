@@ -13,27 +13,15 @@
 char *cap_string(char *s)
 {
 	int i, j;
-	i = 0;
-	char a[] = " \t\n,;.!?\"(){}";
+	char seperators[] = " \t\n,;.!?\"(){}";
 
-	while (*(s + i))
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (*(s + i) >= 'a' && *(s + i) <= 'z')
-		{
-			if (i == 0)
-				*(s + i) -= 'a' - 'A';
-			else
-			{
-				for (j = 0; j <= 12; j++)
-				{
-					if (a[j] == *(s + i - 1))
-						*(s + i) -= 'a' - 'A';
-				}
-			}
-		}
-		i++;
+		if (s[0] >= 'a' && s[0] <= 'z')
+			s[0] = s[0] - 32;
+				for (j = 0; seperators[j] != '\0'; j++)
+					if (s[i] == seperators[j] && s[i + 1] >= 'A' && s[i + 1] <= 'Z')
+						s[i + 1] = s[i + 1] - 32;
 	}
-	
-	
-return (s);
+	return (s);
 }
