@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strncpy - a function that copies a string (src) to another
@@ -18,18 +17,15 @@ char *_strncpy(char *dest, char *src, int n)
 	int j;
 
 	j = 0;
-
-	while (i < n && *(src + i))
+	while (j < n && *(src + j))
 	{
-		*(dest + i) = *(src + i);
-		i++;
+		*(dest + j) = *(src + j);
+		j++;
 	}
-
-	while (i < n)
+	while (j < n)
 	{
-		*(dest + i) = '\0';
-		i++;
+		*(dest + j) = '\0';
+		j++;
 	}
-
-	return(dest);
+	return (dest);
 }
