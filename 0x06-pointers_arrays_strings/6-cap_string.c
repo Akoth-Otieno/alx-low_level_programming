@@ -12,33 +12,28 @@
 
 char *cap_string(char *s)
 {
-	int i;
+	int i, j;
+	i = 0;
+	char a[] = " \t\n,;.!?\"(){}";
 
-	for (i = 0; s[i]!= '\0'; i++)
+	while (*(s + i))
 	{
-		if (i==0)
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 		{
-			((s[i]>='a' && s[i]<='z'));
-			s[i] = s[i] - 32;
-		continue;	
-		}
-
-		if (s[i]==' ')
-		{
-			i++;
-
-			if (s[i]>='a' && s[i]<='z')
+			if (i == 0)
+				*(s + i) -= 'a' - 'A';
+			else
 			{
-				s[i] = s[i] - 32;
-				continue;
+				for (j = 0; j <= 12; j++)
+				{
+					if (a[j] == *(s + i - 1))
+						*(s + i) -= 'a' - 'A';
+				}
 			}
-
 		}
-		else
-		{
-			if (s[i]>='A' && s[i]<='Z')
-				s[i] = s[i] + 32;
-		}
+		i++;
 	}
+	
+	
 return (s);
 }
