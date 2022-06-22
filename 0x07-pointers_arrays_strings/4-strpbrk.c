@@ -8,7 +8,8 @@
  * @s: the subject or input string/ string to be scanned.
  * @accept: string that has the characters to be matched.
  *
- * Return: a pointer to the character in the first string that matches one of the characters in the first string.
+ * Return: a pointer to the character in the first string that matches
+ * one of the characters in the first string.
  *
 */
 
