@@ -13,15 +13,11 @@
 
 int _strlen_recursion(char *s)
 {
-	int len;
-
-	len = strlen(s);
-
-	if (len == 0)
+	if (*s)
 	{
-		return (0);
+		return (_strlen_recursions(s+1) + 1);
 	}
 
-	return (len);
+	return (0);
 }
 
