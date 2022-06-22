@@ -6,7 +6,6 @@ int is_palindrome_reverse(char *s, int len);
 
 /**
  *_strlen - function that measures the length of a string
-
  * @s: input string whose length is determined
  *
  * Return: the length of the s
