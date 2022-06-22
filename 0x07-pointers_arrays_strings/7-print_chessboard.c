@@ -5,7 +5,6 @@
  * print_chessboard - function that prints a chessboard
  *
  * @a: an array input that points to the pieces to print
- * 
  * Return: void
  *
 */
