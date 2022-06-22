@@ -11,9 +11,9 @@
 
 void _print_rev_recursion(char *s)
 {
-	if (*s == '\O')
+	if (*s == '\0')
 	{
-		return ('\O');
+		return ('\0');
 	}
 
 	else 
