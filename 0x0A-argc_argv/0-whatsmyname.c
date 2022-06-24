@@ -4,9 +4,9 @@
 /**
  * main - function that prints the name of a program.
  *
- * @argc - argument count
+ * @argc: argument count
  *
- * @argv - a one dimensional array of strings
+ * @argv: a one dimensional array of strings
  *
  * Return: Always 0 (Success)
 */
