@@ -4,7 +4,7 @@
 /**
  * main - a function that prints the number of arguments
  *
- * @argc - the number if arguments passed in a function.
+ * @argc: the number if arguments passed in a function.
  *
  * @argv: a one-dimensional array containing the function arguments
  *
