@@ -25,9 +25,9 @@ char *_strdup(char *str)
 	if ((sizeof(char) * size) > size)
 		return (NULL);
 
-	for (i = 0; dup[i] != '\0'; i++)
+	for (i = 0; i != '\0'; i++)
 	{
-		str[size] = dup[size];
+		str[i] = dup[i];
 	}
 
 	str[i] = '\0';
