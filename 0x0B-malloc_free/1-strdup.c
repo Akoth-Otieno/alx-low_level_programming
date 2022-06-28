@@ -14,8 +14,7 @@
 
 char *_strdup(char *str)
 {
-	unsigned int i;
-	unsigned int size = 0;
+	unsigned int size = 0, i;
 	char *dup;
 
 	if (size == 0)
@@ -28,7 +27,7 @@ char *_strdup(char *str)
 
 	for (i = 0; dup[i] != '\0'; i++)
 	{
-		str[i] = dup[i];
+		str[size] = dup[size];
 	}
 
 	str[i] = '\0';
