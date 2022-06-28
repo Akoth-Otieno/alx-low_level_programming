@@ -17,12 +17,12 @@ char *_strdup(char *str)
 	unsigned int i = 0;
 	char *dup;
 
-	if (size == 0)
+	if (dup == 0)
 		return (NULL);
 
 	dup = malloc(sizeof(char) * i);
 
-	if ((sizeof(char) * size) > i)
+	if ((sizeof(char) * i) > i)
 		return (NULL);
 
 	for (i = 0; str[i] != '\0'; i++)
