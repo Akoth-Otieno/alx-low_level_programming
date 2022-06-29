@@ -14,22 +14,24 @@
 
 char *_strdup(char *str)
 {
-	unsigned int i = 0;
+	unsigned int a, b;
 	char *dup;
 
-	if (str == 0)
+	if (str == NULL)
 		return (NULL);
 
-	dup = malloc(sizeof(char) * i);
+	for (a = 0; str[a] != '\0'; a++)
+		;
 
-	if ((sizeof(char) * i) > i)
+	dup = (char *)malloc(sizeof(char) * (a+1));
+
+	if (dup == NULL)
 		return (NULL);
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (b = 0; b <= a; b++)
 	{
-		str[i] = dup[i];
+		str[a] = dup[b];
 	}
-	dup[i] = '\0';
 	return (dup);
 
 }
