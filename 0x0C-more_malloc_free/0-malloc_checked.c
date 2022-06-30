@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+void *malloc(size_t size);
 
 /**
  * malloc_checked - a function that allocates memory in the heap
