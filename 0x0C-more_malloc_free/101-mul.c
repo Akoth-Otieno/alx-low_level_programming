@@ -7,7 +7,7 @@
  * main - a function that multiplies two (positive) numbers.
  * @argc: number of arguments
  * @argv: arguments vector
- * Return Always 0 (Success).
+ * Return: Always 0 (Success).
  */
 
 int main(int argc, char *argv[])
