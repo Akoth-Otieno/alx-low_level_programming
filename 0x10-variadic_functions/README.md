@@ -1,0 +1,1 @@
+This Project introduces the concept of variadic functions i.e functions which accept a variable number of arguments. We also learn how to use macros in the stdarg.h library as well as the constant Keyword.
