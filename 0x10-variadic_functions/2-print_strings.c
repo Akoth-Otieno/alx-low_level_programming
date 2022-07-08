@@ -2,13 +2,13 @@
 
 /**
  * print_strings - a function that prints strings, followed by
- * 		a new line.
+ * a new line.
  * @separator: a string that is printed between the strings.
  * @n: number of string variables passed to the function.
  *
  * Return: each string, followed by a new line.
- * 		If one of the strings is NULL, print (nil). If a
- * 		separator is NULL, dont print it.
+ * If one of the strings is NULL, print (nil). If a
+ * separator is NULL, dont print it.
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
