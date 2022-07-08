@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - a function that prints numbers, followed by a new line.
- * @seperator: a string that seperates the numbers
+ * @separator: a string that seperates the numbers
  * @n: the first of the unspecified number parameters passed in the function.
  * Return: each parameter.
  */
