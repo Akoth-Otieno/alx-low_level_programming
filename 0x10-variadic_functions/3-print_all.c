@@ -2,6 +2,7 @@
 /**
  * print_int - prints integer arguments
  * @args: integer arguments from the print_all function.
+ * Return: void
  */
 
 void print_int(va_list args)
@@ -12,6 +13,7 @@ void print_int(va_list args)
 /**
  * print_float - function that prints float arguments.
  * @args: arguments from the print_all function.
+ * Return: voif
  */
 
 void print_float(va_list args)
@@ -22,6 +24,7 @@ void print_float(va_list args)
 /**
  * print_char - function that prints character arguments.
  * @args: arguments from the function print_all.
+ * Return: void
  */
 
 void print_char(va_list args)
@@ -32,6 +35,7 @@ void print_char(va_list args)
 /**
  * print_str - function that prints string arguments.
  * @args: arguments from the print_all functions.
+ * Return: void
  */
 
 void print_str(va_list list)
@@ -68,7 +72,7 @@ void print_all(const char * const format, ...)
 		
 	};
 
-	while (format && format[i])
+	while (format != NULL  && format[i])
 	{
 		j = 0;
 
