@@ -9,11 +9,15 @@
 int _isupper(int c)
 {
 	int i;
+	char A, Z, j;
 
-	for ( i = 0; i <= 26; i++)
-	{ 
-		if ( c = 'C')
-			return (1);
+	for (i = 0; i <= 25; i++)
+	{
+		for (j = A; j <= Z; j++)
+		{
+			if ( c = j)
+			return (1);	
+		}	
 	}
 
 	return (0);
