@@ -20,7 +20,6 @@ void more_numbers(void)
 			if (j > 9)
 				_putchar(tens + '0');
 			_putchar(ones + '0');
-		
 		}
 		_putchar('\n');
 
