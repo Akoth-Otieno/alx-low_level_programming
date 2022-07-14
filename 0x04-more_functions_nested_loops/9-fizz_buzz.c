@@ -3,9 +3,9 @@
 /**
  * main - a program that prints a predetermined output to the terminal.
  *
- * Description - print Fizz if a num ber is a multiple of 3, Buzz if a number is
- * a multiple of 5, FizzBuzz if a number is a multiple of 3 and 5,
- * otherwise print the number.
+ * Description - print Fizz if a number is a multiple of 3, Buzz
+ * if a number is a multiple of 5, FizzBuzz if a number
+ * is a multiple of 3 and 5, otherwise print the number.
  *
  * Return: void
  */
