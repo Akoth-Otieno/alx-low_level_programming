@@ -5,7 +5,7 @@
  * specified position.
  * @head: the first node in the list.
  * @idx: index of the new node to be aded.
- * n: number of nodes.
+ * @n: number of nodes.
  * Return: address of new node or NULL.
  */
 
@@ -26,7 +26,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (idx == 0)
 	{
 		new_node->next = *head;
-		
 		(*head) = new_node;
 		return (new_node);
 	}
